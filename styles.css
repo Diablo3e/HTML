@@ -1,0 +1,16 @@
+.menu:hover {
+    width: 260px;
+}
+.menu:hover li span:nth-child(2){
+    display: block;
+}
+.menu-content li{
+    list-style: none;
+    border-radius: 0px 50px 50px 0;
+    transition: .3s;
+    margin-bottom: 20px;
+    padding-left: 20px; 
+}
+.menu-content li:hover {
+    background: #0c0c0c;
+}
